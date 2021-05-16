@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'VideoSlider_Example' do
+  pod 'VideoSlider', :path => '../'
+
+  target 'VideoSlider_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
