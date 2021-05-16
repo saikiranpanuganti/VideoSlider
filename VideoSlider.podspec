@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'VideoSlider'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of VideoSlider.'
+  s.summary          = 'VideoSlider is a custom slider with which we can show buffer position, customise slider thumb, set custom slider bar colors.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'VideoSlider is a custom slider with which we can show buffer position, custom slider thumb, set custom slider bar colors. VideoSlider is useful for Video Apps where we need to show buffer position to the user. Also with default Slider we cannot change the slider heights which can be done with VideoSlider.'
 
   s.homepage         = 'https://github.com/saikiranpanuganti/VideoSlider'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -28,7 +26,8 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/saikiranpanuganti/VideoSlider.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
+  s.swift_version = '5.0'
 
   s.source_files = 'VideoSlider/Classes/**/*'
   
