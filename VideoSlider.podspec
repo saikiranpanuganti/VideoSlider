@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'VideoSlider'
-  s.version          = '1.0.1'
+  s.version          = '1.0.3'
   s.summary          = 'VideoSlider is a custom slider with which we can show buffer position, customise slider thumb, set custom slider bar colors.'
 
 # This description is used to generate tags and improve search results.
