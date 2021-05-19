@@ -1,0 +1,16 @@
+PODS:
+  - VideoSlider (0.1.0)
+
+DEPENDENCIES:
+  - VideoSlider (from `../`)
+
+EXTERNAL SOURCES:
+  VideoSlider:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  VideoSlider: 7c0892ecce43096e14f58a3f1345621d8fd948e9
+
+PODFILE CHECKSUM: 2375475b5d84ce08a980df2eb70d4f8ff8f720a6
+
+COCOAPODS: 1.10.1

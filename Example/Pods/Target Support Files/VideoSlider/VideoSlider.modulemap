@@ -1,0 +1,6 @@
+framework module VideoSlider {
+  umbrella header "VideoSlider-umbrella.h"
+
+  export *
+  module * { export * }
+}
