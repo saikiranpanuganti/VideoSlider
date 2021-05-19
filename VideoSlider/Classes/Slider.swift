@@ -20,6 +20,11 @@ public class Slider: UIControl {
     private var bufferTrack: UIView!
     private var thumbImage: UIImageView!
     
+    public fullTrackColor: UIColor = UIColor.green
+    public bufferTrackColor: UIColor = UIColor.darkGray
+    public currentTrackColor: UIColor = UIColor.blue
+    public thumbTrackColor: UIColor = UIColor.red
+    
     public var sliderAlignment: SliderAlignment = .center
     public var minimumValue: CGFloat = 0
     public var maximumValue: CGFloat = 1
@@ -122,10 +127,10 @@ public class Slider: UIControl {
         currentTrack = UIView(frame: CGRect(x: 0, y: trackY, width: thumbInitialCurrentPosition, height: trackHeight))
         thumbImage = UIImageView(frame: CGRect(x: thumbInitialCurrentPosition, y: thumbY, width: thumbHeight, height: thumbHeight))
         
-        fullTrack.backgroundColor = UIColor.green
-        bufferTrack.backgroundColor = UIColor.darkGray
-        currentTrack.backgroundColor = UIColor.blue
-        thumbImage.backgroundColor = UIColor.red
+        fullTrack.backgroundColor = fullTrackColor
+        bufferTrack.backgroundColor = bufferTrackColor
+        currentTrack.backgroundColor = currentTrackColor
+        thumbImage.backgroundColor = thumbTrackColor
         thumbImage.layer.cornerRadius = trackHeight*2
         
         self.addSubview(bufferTrack)
