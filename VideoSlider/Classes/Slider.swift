@@ -20,10 +20,10 @@ public class Slider: UIControl {
     private var bufferTrack: UIView!
     private var thumbImage: UIImageView!
     
-    public fullTrackColor: UIColor = UIColor.green
-    public bufferTrackColor: UIColor = UIColor.darkGray
-    public currentTrackColor: UIColor = UIColor.blue
-    public thumbTrackColor: UIColor = UIColor.red
+    public var fullTrackColor: UIColor = UIColor.green
+    public var bufferTrackColor: UIColor = UIColor.darkGray
+    public var currentTrackColor: UIColor = UIColor.blue
+    public var thumbTrackColor: UIColor = UIColor.red
     
     public var sliderAlignment: SliderAlignment = .center
     public var minimumValue: CGFloat = 0
